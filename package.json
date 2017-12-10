@@ -3,7 +3,7 @@
   "displayName": "ozjs",
   "description": "Syntax highlighting for ozjs tagged template strings",
   "version": "0.1.0",
-  "publisher": "Banou",
+  "publisher": "banou",
   "icon": "docs/logo.png",
   "galleryBanner": {
     "color": "#fcfcfc",
