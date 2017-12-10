@@ -1,0 +1,62 @@
+{
+  "name": "ozjs",
+  "displayName": "ozjs",
+  "description": "Syntax highlighting for ozjs tagged template strings",
+  "version": "0.1.0",
+  "publisher": "Banou",
+  "icon": "docs/logo.png",
+  "galleryBanner": {
+    "color": "#fcfcfc",
+    "theme": "light"
+  },
+  "repository": {
+    "url": "https://github.com/Banou26/vscode-ozjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Banou26/vscode-ozjs/issues"
+  },
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "keywords": [
+    "ozjs",
+    "javascript",
+    "html",
+    "css",
+    "template"
+  ],
+  "contributes": {
+    "grammars": [{
+        "injectTo": [
+          "source.js",
+          "source.js.jsx",
+          "source.jsx",
+          "source.ts",
+          "source.tsx"
+        ],
+        "scopeName": "inline.html",
+        "path": "./syntaxes/html.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.html": "html"
+        }
+      },
+      {
+        "injectTo": [
+          "source.js",
+          "source.js.jsx",
+          "source.jsx",
+          "source.ts",
+          "source.tsx"
+        ],
+        "scopeName": "inline.css",
+        "path": "./syntaxes/css.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.css": "css"
+        }
+      }
+    ]
+  }
+}
