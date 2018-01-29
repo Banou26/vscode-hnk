@@ -2,7 +2,7 @@
   "name": "ozjs",
   "displayName": "ozjs",
   "description": "Syntax highlighting for ozjs tagged template strings",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "banou",
   "icon": "docs/logo.png",
   "galleryBanner": {
@@ -23,7 +23,6 @@
   ],
   "keywords": [
     "ozjs",
-    "javascript",
     "html",
     "css",
     "pug",
