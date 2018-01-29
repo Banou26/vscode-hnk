@@ -26,6 +26,7 @@
     "javascript",
     "html",
     "css",
+    "pug",
     "template"
   ],
   "contributes": {
@@ -55,6 +56,20 @@
         "path": "./syntaxes/css.json",
         "embeddedLanguages": {
           "meta.embedded.block.css": "css"
+        }
+      },
+      {
+        "injectTo": [
+          "source.js",
+          "source.js.jsx",
+          "source.jsx",
+          "source.ts",
+          "source.tsx"
+        ],
+        "scopeName": "inline.pug",
+        "path": "./syntaxes/pug.json",
+        "embeddedLanguages": {
+          "meta.embedded.block.pug": "pug"
         }
       }
     ]

@@ -1,11 +1,10 @@
 {
-	"fileTypes": [],
 	"injectionSelector": "L:source -comment -string",
 	"patterns": [
 		{
-			"name": "taggedTemplates",
+			"name": "CSSTaggedTemplate",
 			"contentName": "meta.embedded.block.css",
-			"begin": "(?x)(\\s*(?:css|raw)\\s*)(`)",
+			"begin": "(?x)(\\s*(?:css)\\s*)(`)",
 			"beginCaptures": {
 				"1": {
 					"name": "entity.name.function.tagged-template.js"

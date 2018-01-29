@@ -2,16 +2,16 @@
 	"injectionSelector": "L:source -comment -string",
 	"patterns": [
 		{
-			"name": "HTMLTaggedTemplate",
-			"contentName": "meta.embedded.block.html",
-			"begin": "(?x)(\\s*(?:html)\\s*)(`)",
+			"name": "PugTaggedTemplate",
+			"contentName": "meta.embedded.block.pug",
+			"begin": "(?x)(\\s*(?:pug)\\s*)(`)",
 			"beginCaptures": {
 				"1": {
 					"name": "entity.name.function.tagged-template.js"
 				},
 				"2": {
 					"name": "string.js"
-				},
+				},				
 				"3": {
 					"name": "punctuation.definition.string.template.begin.js"
 				}
@@ -30,10 +30,10 @@
 					"include": "source.ts#template-substitution-element"
 				},
 				{
-					"include": "text.html.basic"
+					"include": "text.jade"
 				}
 			]
 		}
 	],
-	"scopeName": "inline.html"
+	"scopeName": "inline.pug"
 }
