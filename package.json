@@ -2,7 +2,7 @@
   "name": "ozjs",
   "displayName": "ozjs",
   "description": "Syntax highlighting for ozjs tagged template strings",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "banou",
   "icon": "docs/logo.png",
   "galleryBanner": {
@@ -25,7 +25,7 @@
     "ozjs",
     "html",
     "css",
-    "pug",
+    "poz",
     "template"
   ],
   "contributes": {
@@ -66,7 +66,7 @@
           "source.tsx"
         ],
         "scopeName": "inline.pug",
-        "path": "./syntaxes/pug.json",
+        "path": "./syntaxes/poz.json",
         "embeddedLanguages": {
           "meta.embedded.block.pug": "pug"
         }

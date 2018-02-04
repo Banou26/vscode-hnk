@@ -4,7 +4,7 @@
 		{
 			"name": "PugTaggedTemplate",
 			"contentName": "meta.embedded.block.pug",
-			"begin": "(?x)(\\s*(?:pug)\\s*)(`)",
+			"begin": "(?x)(\\s*(?:poz)\\s*)(`)",
 			"beginCaptures": {
 				"1": {
 					"name": "entity.name.function.tagged-template.js"
