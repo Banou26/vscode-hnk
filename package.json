@@ -29,6 +29,12 @@
     "template"
   ],
   "contributes": {
+    "languages": [{
+			"id": "poz",
+			"extensions": [ ".poz" ],
+			"aliases": [ "Poz" ],
+			"configuration": "./language-configuration.json"
+		}],
     "grammars": [{
         "injectTo": [
           "source.js",
@@ -55,20 +61,6 @@
         "path": "./syntaxes/css.json",
         "embeddedLanguages": {
           "meta.embedded.block.css": "css"
-        }
-      },
-      {
-        "injectTo": [
-          "source.js",
-          "source.js.jsx",
-          "source.jsx",
-          "source.ts",
-          "source.tsx"
-        ],
-        "scopeName": "inline.pug",
-        "path": "./syntaxes/poz.json",
-        "embeddedLanguages": {
-          "meta.embedded.block.pug": "pug"
         }
       }
     ]
